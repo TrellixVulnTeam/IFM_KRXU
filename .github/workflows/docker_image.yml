@@ -32,6 +32,6 @@ jobs:
         with:
           context: .
           version: latest
-          file: ./User/Server/Dockerfile
+          file: ./Dockerfile
           push: true
           tags: ghcr.io/mervegunak/image_name:latest
